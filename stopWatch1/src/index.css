@@ -23,3 +23,41 @@ body{
     text-shadow: 2px 2px 2px black;
     margin-bottom: 25px;
 }
+
+.controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+.start-button{
+    background-color: hsl(115, 100%, 40%);
+}
+
+.start-button:hover{
+    background-color: hsl(115, 100%, 30%);
+}
+
+.stop-button{
+    background-color: hsl(354, 100%, 40%);
+}
+
+.stop-button:hover{
+    background-color: hsl(354, 100%, 30%);
+}
+
+
+.reset-button{
+    background-color: hsl(259, 100%, 40%);
+}
+
+.reset-button:hover{
+    background-color: hsl(259, 100%, 30%);
+}
